@@ -1,0 +1,21 @@
+{
+  "name": "tlwwork-collaboration",
+  "version": "1.0.0",
+  "description": "This is for watch collaboration",
+  "main": "script.js",
+  "scripts": {
+    "test": "hatz john",
+    "start": "parcel collaboration.html",
+    "build": "parcel build collaboration.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TLWwork/TLWwork-collaboration.git"
+  },
+  "author": "Daniel luntras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TLWwork/TLWwork-collaboration/issues"
+  },
+  "homepage": "https://github.com/TLWwork/TLWwork-collaboration#readme"
+}
