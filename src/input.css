@@ -83,3 +83,82 @@ border-radius: 5px;
     width: 50px;
     height: 40px;
   }
+  /* --------------colaboration -----------------*/
+  .contaien-colabor{
+position: absolute;
+top: 135%;
+height: 329px;
+width: 1174px;
+  }
+
+  .lafel{
+    position: absolute;
+    width: 270px;
+    height: 230px;
+    left: 20%;
+     border: solid rgb(0, 0, 0);
+     border-radius: 5px;
+     box-shadow: 10px 10px 3px 3px rgb(45, 44, 44);
+      transition: all 0.5s;
+  }
+ .lafel:hover{
+    position: absolute;
+    width: 270px;
+    height: 230px;
+    left: 20%;
+     border: solid rgb(0, 0, 0);
+     border-radius: 5px;
+  
+       box-shadow: 0px 0px 5px 10px rgb(118, 116, 161);
+  }
+
+.namecol{
+ 
+  margin: 30px;
+  margin-left: 30rem;
+margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .con1{
+    padding:20px;
+        margin-left:1100px;
+  }
+  .con2{
+    padding:20px;
+        margin-left:750px;
+  }
+  .con3{
+    padding:20px;
+        margin-left: 50px;
+  }
+  .con4{
+    padding:20px;
+    margin-left:400px;
+  }
+  p{
+    margin-bottom: 20px;
+    margin:20px;
+  }
+  .htile{
+    margin: 10px;
+  }
