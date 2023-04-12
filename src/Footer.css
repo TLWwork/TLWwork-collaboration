@@ -38,7 +38,7 @@ footer {
   background-color: #00215B;
   color: #ffffff;
   left: 50%;
-  height: 320px;
+  height: 380px;
   padding: 20px;
   width: 116.5%;
   margin: 0px;
@@ -70,4 +70,55 @@ footer {
 .imger{
       height: 50px;
   width: 50px;
+}
+
+
+
+/* animation title */
+
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+/* body {
+  background-color:  #151719;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+} */
+.waviy {
+  position:absolute;
+  padding-left: 60px;
+  padding: 40px;
+
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 40px;
+}
+.waviy span {
+
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  color: #000000;
+  text-transform: uppercase;
+  animation: waviy 2s infinite;
+  animation-delay: calc(.1s * var(--i));
+
+  
+}
+@keyframes waviy {
+  0%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-50px)
+  }
+40%{
+    transform: translateY(20px)
+}
+
+
+
 }
