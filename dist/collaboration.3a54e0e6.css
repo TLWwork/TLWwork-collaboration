@@ -29,7 +29,7 @@ footer {
 
 .foooter-last {
   color: #fff;
-  height: 320px;
+  height: 380px;
   width: 116.5%;
   background-color: #00215b;
   margin: 0;
@@ -60,6 +60,36 @@ footer {
 .imger {
   height: 50px;
   width: 50px;
+}
+
+.waviy {
+  -webkit-box-reflect: below -20px linear-gradient(transparent, #0003);
+  padding: 40px;
+  font-size: 40px;
+  position: absolute;
+}
+
+.waviy span {
+  color: #000;
+  text-transform: uppercase;
+  animation: 2s infinite waviy;
+  animation-delay: calc(.1s * var(--i));
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+}
+
+@keyframes waviy {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  20% {
+    transform: translateY(-50px);
+  }
+
+  40% {
+    transform: translateY(20px);
+  }
 }
 
 /*# sourceMappingURL=collaboration.3a54e0e6.css.map */
