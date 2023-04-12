@@ -109,7 +109,7 @@ width: 1174px;
      border: solid rgb(0, 0, 0);
      border-radius: 5px;
   
-       box-shadow: 0px 0px 5px 10px rgb(118, 116, 161);
+       box-shadow: 10px 10px 3px 3px rgb(129, 127, 127);
   }
 
 .namecol{
@@ -130,7 +130,10 @@ margin-bottom: 40px;
 
 
 
-
+.peste
+{
+  font-size: 30px;
+}
 
 
 
@@ -140,20 +143,35 @@ margin-bottom: 40px;
 
 
   .con1{
+    text-align: center;
     padding:20px;
         margin-left:1100px;
+        background-color: #ac9a80;
+        color: #000000;
+        
   }
   .con2{
+    text-align: center;
     padding:20px;
         margin-left:750px;
+           background-color: #e4cdac;
+        color: #000000;
   }
   .con3{
+    text-align: center;
     padding:20px;
+    font-family: Open Sans,Arial,sans-serif;
         margin-left: 50px;
+         background-color: #fdf0dd;
+        color: #000000;
   }
   .con4{
+    text-align: center;
     padding:20px;
     margin-left:400px;
+    background-color: #b62d2b;
+        color: #ffffff;
+  
   }
   p{
     margin-bottom: 20px;
@@ -161,4 +179,9 @@ margin-bottom: 40px;
   }
   .htile{
     margin: 10px;
+  }
+  h3{
+    text-align: center;
+padding-top:20px;
+
   }
