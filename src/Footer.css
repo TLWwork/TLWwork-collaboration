@@ -104,7 +104,7 @@ footer {
   color: #000000;
   text-transform: uppercase;
   animation: waviy 2s infinite;
-  animation-delay: calc(.1s * var(--i));
+  animation-delay: calc(.2s * var(--i));
 
   
 }
