@@ -73,7 +73,7 @@ footer {
   color: #000;
   text-transform: uppercase;
   animation: 2s infinite waviy;
-  animation-delay: calc(.1s * var(--i));
+  animation-delay: calc(.2s * var(--i));
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: inline-block;
 }
